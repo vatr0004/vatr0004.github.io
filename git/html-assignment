@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+<body>
+<header>Theodora Vatra</header>
+<main>
+<article>
+    <h1>About Me</h1>
+<p>My name is Theodora Vatra and I'm originally from Montreal. My parents immigrated from <em> Romania </em> in order to provide a better life for themselves and the family in which they were planning on building. Due to my romanian background, as well as being born in Montreal and then coming to Ottawa, I know how to speak, read and write in <strong>three </strong> languages. </p>
+<p>I'm currently learning how to work with <abbr>Hypertext Markup Language</abbr> and this is my 1<sup>rst</sup> time working with any type of programming. Although this program requires a lot of hard work I truly believe that <blockquote>Success is sweet, but the secret is sweat.-<cite>General Nroman Shwarzkopf</cite></blockquote>. As long as I put in the hard work and learn from my mistakes, I'll eventually be successful and come closer to reaching for my dreams and goals. </p>
+</article>
+</main>
+<footer>Copyright 2021- All Rights Reserved</footer>
+</body>
+</html>
+
