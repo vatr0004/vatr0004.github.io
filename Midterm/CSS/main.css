@@ -9,3 +9,13 @@ body{
     color: azure;
     
 }
+.site-text{
+    text-align: center;
+}
+body{
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-bottom: 20px;
+    
+    
+}
