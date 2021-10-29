@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(174, 216, 212)
+    background-color:rgb(192, 228, 224)
 
 }
 body{
@@ -16,6 +16,12 @@ body{
     padding-left: 20rem;
     padding-right: 20rem;
     padding-bottom: 20px;
-    
-    
+}
+#lone-star{
+    float:left;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+}
+.paragraph{
+float: right;
 }
