@@ -7,29 +7,88 @@
     <title>Midterm</title>
     <link href="CSS/main.css" rel="stylesheet">
 </head>
+
 <body>
+    <!-- webcontainer is the lighter box found on the website-->
+    <div class="webcontainer">
+
+    <!-- text on top of image-->    
     <h2 class= "site-text">Lone Starfish</h2>
-    <h3>HOME</h3>
-    <h3 class= "story">STORY</h3>
-    <h3>CONTACT</h3>
+
+   <!-- this is the navigation bar on the website-->
+   <a href="index.html" class="home">HOME</a> 
+   <a href="#contact" class="contact">CONTACT</a>
+   <a href="#story" class= "story">STORY</a>
+
+  <!-- article contains information paragraph and the lone star image-->
     <article>
-    <h1>Life of a Starfish</h1>
+
+   <!--linking story button to section-->
+    <h1 id="story">Life of a Starfish</h1>
+
+    <!--inserting the image-->
     <img alt="LoneStarImage" id="lone-star" src="image/LoneStarr.JPG" width="250" length="250">
-<p class="paragraph">Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.</p>
- <h3>Facts About Starfish</h3>
- <ul>
+<p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.</p>
+ 
+<!-- the facts about starfish starts here, it's formatted into an unordered list-->
+<h3>Facts About Starfish</h3>
+ 
      <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
      <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
      <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
      <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
- </ul>
- <a>Contact to learn more</a>
- <h4>your name</h4>
- <h4>Your email</h4>
- <h4>Your message</h4>
- <h4>Would you like to visit the starfish?</h4>
- <h5>yes</h5><h5>no</h5><h5>maybe</h5>
- <h6>send</h6>
+ 
+  <!--contact information in a box and further linking contact button to section-->   
+ <h2 id="contact">Contact to learn more</h2>
+
+ <!--the box surrounding everything before the footer-->
+ <div class="bigbox">
+
+
+<!-- headings and text boxes'-->
+ <div class= "boxed"><label for="yourname">Your Name </label>
+    <input type="checkbox long" class="checkbox" id="yourname" name="name">
+    <div class="clear"></div>
+
+ <h4 class= "youremail">Your Email</h4>
+ <input type="checkbox long" class="checkbox" id="yourname" name="name">
+    <div class="clear"></div>
+
+ <h4 class="yourmessage">Your Message</h4>
+ <input type="checkbox long" class="checkboxx" id="yourname" name="name">
+    <div class="clear"></div>
+
+<!--adding a tag for css for the question in the form to modify it-->
+ <p class="question">Would you like to visit the starfish?</p>
+
+<!--radio buttons, circle checkboxes-->
+ <h5 class="yes">Yes</h5>
+ <label class="container">
+     <input type="radio" checked="checked" name="radio">
+     <span class="checkmark"></span>
+ </label>
+
+ <h5 class="no">No</h5>
+ <label class="container">
+     <input type="radio" name="radio">
+     <span class="checkmark"></span>
+ </label>
+
+ <h5 class="maybe">Maybe</h5>
+ <label class= "container">
+     <input type="radio" name="radio">
+     <span class="checkmark"></span>
+ </label>
+
+<!--send button-->
+ <h6><a href="#top" class= "a">SEND</a></div></h6>
+
+<!--footer and copyright information-->
+ <footer>© Lone Starfish.</footer>
+
 </article>
+</div>
+</div>
+</div>
 </body>
 </html>

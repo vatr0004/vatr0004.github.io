@@ -1,30 +1,284 @@
+/*adding background colour to the body and modifying the margins to fix the size of the page in the middle */
 body{
-    background-color:rgb(192, 228, 224)
-
+    background-color:rgb(139, 196, 189);
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+    
 }
+/* changing the font of the text on the webpage */
 body{
     font-family:Arial, Helvetica, sans-serif;
+
 }
+/*adding padding to the webpage for the borders added to be equal in order to make the page in the middle look centered */
+body{
+    padding-left: 16rem;
+    padding-right: 20rem;
+    padding-bottom: 20px;
+
+}
+/* making the page a rectangular box in the center and adding another colour from the borders*/
+.webcontainer{
+    width: 990px;
+    margin:0 auto 0 auto;
+    padding:10px 15px;
+    padding-bottom: 15%;
+    background-color: rgb(210, 233, 233);
+
+}
+/* modifying the header/title of the page*/
 .site-text{
     color: azure;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 4rem;
+    font-style:normal;
+    font-weight: 500;
     
 }
+
+/* inserting the background image, making it fit the page and placing the text over it accordingly */
 .site-text{
     text-align: center;
-    
+    padding-top:200px;
+
+    background-image:
+    url("https://i0.wp.com/mindfulstoic.net/wp-content/uploads/2020/02/short-stories.jpg?resize=1024%2C512&ssl=1");
+    background-repeat: no-repeat;
+    height: 8rem;
+    width: 63.79rem;
+    margin-top: -2%;
+    margin-bottom: 0%;
+    margin-left: -1.5%;
+    margin-right: 0%;
+    background-position: 50% 70%;
+
 }
-body{
-    padding-left: 20rem;
-    padding-right: 20rem;
-    padding-bottom: 20px;
-}
+
+/* adding lone star image to the webpage and placing it, adding padding in order to create a bit of space between text and image */
 #lone-star{
     float:left;
     padding-right: 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
+    width: 12rem;
+    
+
 }
+/* making the main paragraph with the information show up right next to the image*/
 .paragraph{
 float: right;
+
 }
+/* creating the box going around the forms*/
+.bigbox{
+    
+    border: 0.03rem solid black;
+    width: 60.5rem;
+    height: 25rem;
+    padding: 0.5rem;
+    margin: 0rem;
+    background-color: none;
+
+}
+/* creating the "send" button*/
+.a{
+    display: inline;
+    list-style-type: square;
+    border:0.03rem solid black; 
+    width: 2rem;
+    height: 0.8rem; 
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: none;
+
+}
+
+/*making the word smaller and centering it in the box after size change*/
+.a{
+    font-size: xx-small;
+    top: 5rem;
+
+}
+/* adding colour to the box when the mouse goes over it*/
+.a:hover{
+    background-color: aquamarine;
+
+}
+/* removing the underline and colour from the button when showcased and clicked on*/
+.a:link{
+    text-decoration: none;
+    color: black;
+
+}
+
+.a:visited{
+    text-decoration: none;
+    color: black;
+}
+/*creating the home button and placing it on the webpage accordingly*/
+.home{
+    display: inline-block;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+
+}
+/* removing the underline and colour from the button when showcased and clicked on*/
+.home:link{
+    text-decoration: none;
+    color: black;
+
+}
+
+.home:visited{
+    text-decoration: none;
+    color: black;
+
+}
+/* creating the story button and placing it on the webpage accordingly further adding borders to divide the three buttons in the navigation tab*/
+.story{
+
+    text-align:center;
+    display:inline;
+    margin-left: 7rem;
+    padding-right: 6rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    border-right:0.04rem solid black; 
+    padding-right: 9rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    border-left:0.04rem solid black; 
+    padding-left: 9rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    
+
+}
+/* removing the underline and colour from the button when showcased and clicked on*/
+.story:link{
+    text-decoration: none;
+    color: black;
+
+}
+
+.story:visited{
+     text-decoration: none;
+     color: black;
+
+}
+/*creating the contact button and further placing it accordingly on the webpage*/
+.contact{
+    display: inline;
+    float: right;
+    margin-right: 8rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+
+}
+/* removing the underline and colour from the button when showcased and clicked on*/
+.contact:link{
+    text-decoration: none;
+    color: black;
+}
+
+.contact:visited{
+     text-decoration: none;
+     color: black;
+
+}
+/* placing the "life of a starfish" text a bit lower from the navigation bar*/
+h1{
+    padding-top: 1rem;
+
+}
+/* placing the yes, no and maybe texts next to each other*/
+.yes{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+
+}
+
+.no{
+    float: center;
+    margin-left: 0rem;
+    display: inline;
+    margin-bottom: 0.5rem;
+
+}
+
+.maybe{
+    display: inline;
+    float: center;
+    margin-left: 0rem;
+
+}
+
+/*the container, making the rounded checkboxes/ radio buttons*/
+.container{
+    display: inline-block;
+    position: relative;
+    padding-left: 0.5px;
+    margin-bottom: 0.5px 0px;
+    cursor:pointer;
+    font-size: 15px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+/* modifying the yes. no and maybe words to be smaller and thin*/
+h5{
+    font-weight: 530;
+    font-size: small;
+    margin: inline;
+
+}
+/* adding the text boxes for name and email */
+.checkbox{
+   padding: 0rem;
+    font-size: 1rem;
+    width: 60rem;
+    margin-bottom: 0rem;
+    
+}
+/* modifying the "your name" and "your email" margins on webpage so the text box falls right below it*/
+.boxed{
+    margin-bottom: 0.5rem;
+
+}
+
+.youremail{
+    margin-bottom: 0.5rem;
+
+}
+/* making text box for "your message" on webpage */
+.checkboxx{
+    padding:0rem;
+    font-size: 1rem;
+    width: 60rem;
+    height: 5rem;
+    margin-bottom: 0rem;
+
+}
+/* modifying the "your message" margins on webpage so the text box falls right below it */
+.yourmessage{
+    margin-bottom: 0.5rem;
+
+}
+/* making the question "would you like to visit the starfish?" thinner in appearence*/
+.question{
+    margin-bottom: 0rem;
+font-weight: 549;
+
+}
+
+/*placing footer and changing size to fit mockup*/
+    footer{
+        text-align: right;
+        padding-top:2rem;
+        font-size: small;
+    
+    }
