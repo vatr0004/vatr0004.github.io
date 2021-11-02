@@ -278,7 +278,7 @@ font-weight: 549;
 /*placing footer and changing size to fit mockup*/
     footer{
         text-align: right;
-        padding-top:2rem;
+        padding-top: 4rem;
         font-size: small;
     
     }
