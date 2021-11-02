@@ -244,7 +244,7 @@ h5{
     margin-bottom: 0rem;
     
 }
-/* modifying the "your name" and "your email" margins on webpage so the text box falls right below it*/
+/* modifying the "your name" and "your email" margins on webpage so the text box falls right below it and making the words thinner*/
 .boxed{
     margin-bottom: 0.5rem;
 
@@ -252,6 +252,7 @@ h5{
 
 .youremail{
     margin-bottom: 0.5rem;
+    font-weight: 500;
 
 }
 /* making text box for "your message" on webpage */
@@ -263,9 +264,10 @@ h5{
     margin-bottom: 0rem;
 
 }
-/* modifying the "your message" margins on webpage so the text box falls right below it */
+/* modifying the "your message" margins on webpage so the text box falls right below it and making the words thinner*/
 .yourmessage{
     margin-bottom: 0.5rem;
+    font-weight: 500;
 
 }
 /* making the question "would you like to visit the starfish?" thinner in appearence*/
