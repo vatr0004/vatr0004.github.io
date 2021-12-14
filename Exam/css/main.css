@@ -1,0 +1,598 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+        v2.0 | 20110126
+        License: none (public domain)
+        */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+/*=======================================================================================*/
+/*============================== MY STYLES =============================================*/
+/*=====================================================================================*/
+
+body{
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Starting Nav Bar*/
+
+.container{
+    color: #c58b22;
+    margin:auto;
+    padding:14px;
+}
+header {
+    background: #222222;
+     color:white;
+}
+
+.logo{
+     width: auto;
+     background-color:#c58b22;
+}
+
+h2{
+    color: white;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}   
+
+nav ul li a {
+    text-decoration: none;
+    color: #c58b22;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.home {
+    color: #222222;
+    background: #c58b22;
+    padding-bottom:20px;
+}
+
+.contactt{
+    padding-bottom: 20px;
+}
+
+.searchbar{
+    border-radius: 3px; 
+    width: 90%;
+    padding: 10px;
+}
+
+/* Nav Bar Done */
+
+/* Getting the welcome section done and linking it to about*/
+/*Modifying sizes and background colours of texts and images*/
+
+.welcome{
+    position: relative;
+}
+
+.welcomesection{
+    position: absolute;
+        padding-top: 15px;
+        max-width: 100%;
+        top:10%;
+        height: 73%;
+        background: rgba(0, 0, 0, 0.6);
+}
+
+.welcomee{
+    padding-bottom: 20px;
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 14px;
+
+}
+
+.p1{
+    padding:14px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.lounge{
+    width: 100%;
+    vertical-align: top;
+}
+
+.connectwithus{
+    border: none;
+    background: #c78c06;
+    padding-bottom: 14px;
+    font-size: 1.2rem;
+}
+.pone{
+    font-size: 13px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+
+.about{
+    background: #ffe6ac;
+    padding: 13px;
+}
+
+.us{
+    padding-bottom: 20px;
+    color:#222222
+}
+
+.aboutus{
+    width: 100%;
+    padding-bottom: 1.5rem;
+    box-sizing: border-box;
+}
+
+.our{
+    padding-top: 3rem;
+    display:flex;
+    padding-left:14px;
+    color:#222222;
+}
+
+/*Building up the main body*/
+
+.digitall{
+    width: 100%;
+}
+
+.transfo{
+    background-color: #ffe6ac;
+    width: 100%;
+    padding-bottom:14px;
+
+}
+
+.transformations{
+    color: #222222;
+    font-size: 2rem;
+    padding:14px;
+    font-weight: bold;
+}
+
+.digiplan{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: #222;
+    border: none;
+    padding: 25px;
+    font-size: 1.1rem;
+    padding-bottom:25px;
+    padding-top: 25px;
+}
+
+.p2{
+    padding-bottom:14px;
+    padding-left:14px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.market{
+    background-color: #ffe6ac;
+    width: 100%;
+    padding-bottom:14px;
+
+}
+
+.marketingplans{
+    display: flex;
+justify-content: center;
+    color: white;
+    background: #222;
+    border: none;
+    padding: 25px;
+    font-size: 1.1rem;
+    padding-bottom:25px;
+    padding-top: 25px;
+}
+
+.marketing{
+    width:100%;
+    padding-top:14px;
+background: white;
+}
+
+.mark{
+    color: #222;
+    font-size: 2rem;
+    padding:14px;
+    font-weight: bold;
+    background-color: #ffe6ac;
+}
+.videopro{
+    width: 100%;
+    background-color: white
+
+}
+
+.video{
+    color: #222;
+    font-size: 2rem;
+    padding:14px;
+    font-weight: bold;
+    background-color: #ffe6ac;
+}
+
+.p4{
+    font-size: 13px;
+    line-height: 1.6;
+    padding-bottom: 15px;
+    padding-left:14px;
+}
+
+.videoplan{
+    color: white;
+    background: #222;
+    border: none;
+    padding: 15px;
+    font-size: 1.1rem;
+    width: 40%;
+}
+
+.web{
+    color: #222;
+    font-size: 2rem;
+    padding:14px;
+    font-weight: bold;
+    background-color: #ffe6ac;
+}
+
+.p5{
+    font-size: 13px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+    padding-left:14px;
+}
+
+.webdev{
+    width:100%;
+    padding-top:14px;
+background: white;
+}
+
+.webplans{
+    color: white;
+    background: #222;
+    border: none;
+    padding: 15px;
+    font-size: 1.1rem;
+    width: 40%;
+}
+
+.printplans{
+    color: white;
+    background: #222;
+    border: none;
+    padding: 15px;
+    font-size: 1.1rem;
+    width: 40%;
+}
+
+.printing{
+    width:100%;
+    padding-top:14px;
+background: white;
+}
+
+.p6{
+    font-size: 13px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+    padding-left:14px;
+}
+
+.print{
+    color: #222;
+    font-size: 2rem;
+    padding:14px;
+    font-weight: bold;
+    background-color: #ffe6ac;
+}
+
+.p3{
+    font-size: 13px;
+    line-height: 1.6;
+    padding-bottom: 15px;
+    padding-left:14px;
+}
+
+.videopro{
+    padding-top:14px;
+}
+ 
+.p7{
+   
+    display: block;
+    position: absolute;
+    top: 26%;
+    left: 0%;
+    padding-bottom: 15px;
+    line-height: 1.6;
+    font-size: 11px;
+    width:90%;
+    padding:14px;
+    color: white;
+}
+
+.ovision{
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    padding-bottom: 15px;
+    line-height: 1.6;
+    color: white;
+    font-size: 2rem;
+    padding:14px;
+    font-weight: bold;
+    padding:18px;
+
+}
+
+.ourvisionn{
+    position: relative;
+}
+
+.visionimg{
+    width:97%;
+    max-height: 280px;
+    position: relative;
+        padding-top: 15px;
+
+}
+
+.learnmore{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    font-size: 1rem;    
+    border-color: #c78c06;
+}
+
+.team{
+    padding-top: 3rem;
+        padding-bottom: 1.5rem;
+        color: #222222;
+        padding:14px;
+}
+
+.p8, .p9{
+    line-height: 1.6;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding:14px;
+}
+
+.ourteams{
+    background: #ffe6ac;
+}
+
+.hline{
+    border: none;
+        height: 2.5px;
+        background: #c78c06;
+}
+
+.bobby{
+    width:100%;
+    padding-top:14px;
+background: white;
+}
+
+.john{
+    width:100%;
+}
+
+.johnd,.bob{
+    color: #222;
+    font-size: 2rem;
+    padding:14px;
+    font-weight: bold;
+    background-color: #ffe6ac;
+    padding-top:10px;
+}
+
+.ceo, .co-owner{
+    font-size: 14px;
+    padding-left:14px;
+    font-weight:bold;
+}
+
+.hline{
+    width:97%;
+}
+
+.contact{
+    padding-top: 50px;
+    padding-left: 9px;
+    width: 85%;
+    padding: 10px;
+}
+
+.contactus{
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 9px;
+    font-weight: bold;
+}
+
+.send{
+color: #000000;
+font-size: 40px;
+}
+
+/*making boxes for information and formating the section*/
+
+.words{
+    padding-bottom: 20px;
+}
+
+.word{
+    padding-bottom: 10px;
+}
+
+label{
+    font-size: 13px;
+}
+
+input[type=email]{ 
+    width: 113%;
+    height: 120px;
+    border-radius: 3px;
+    border-color: rgba(0, 0, 0);
+ } 
+ input[type=text]{ 
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border-color: rgba(0, 0, 0);
+ } 
+
+ .sendit{
+    background: #222;
+    color: #c78c06;
+    font-size: 20px;
+    padding-top: 5px;
+ }
+
+ /* Making hour of operation table*/
+
+ .hoursofoperation{
+     color: black;
+     padding-top: 4px;
+     font-weight: bold;
+     font-size: 30px;
+     padding:14px;
+ }
+
+ th{
+    background-color: #ffe6ac;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 13px;
+}
+
+/* Working on the map*/
+
+
+
+@media screen and (min-width: 760px){
+    .container{
+        width: 706px;
+    }
+    
+}
+/*---desktop mockup---*/
+
+@media screen and (min-width: 1200px){
+
+  
+
+    .display{
+        display: inline-grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-template-areas:"one two three four five six";
+
+    }
+
+.display .transfo:nth-child(1){
+    grid-area:one;
+    grid-column: 5/5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.display .transfo:nth-child(2){
+    grid-area:two;
+    grid-column:2/5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.display .transfo:nth-child(3){
+    grid-area:three;
+    grid-column:2/5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.display .transfo:nth-child(4){
+    grid-area:four;
+    grid-column:5/5;
+}
+.display .transfo:nth-child(5){
+    grid-area:five;
+    grid-column:5/5;
+}
+
+.transfo:nth-child(1){
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+}
+
+
+}
