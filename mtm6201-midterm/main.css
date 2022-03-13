@@ -49,12 +49,46 @@
 /*=======================================================================================*/
 /*============================== MY STYLES =============================================*/
 /*=====================================================================================*/
-
-.body{
-background-color: #A8BCA8;
-margin: auto;
-padding: 14px;
-
+Html,body {
+    position:relative;
+    height:100%;
 }
+
+body{
+    background: #A8BCA8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+/* Starting Nav Bar*/
+ 
+.header{
+   background-image: url(images/headerimage.jpg);
+   background-size: cover;
+}
+header {
+    padding-bottom: 30%;
+}
+ 
+.aboutus{
+    text-decoration: none;
+}
+ 
+.home{
+    text-decoration: none;
+}
+ 
+.contactus{
+    text-decoration: none;
+}
+ 
+@media screen and (min-width: 760px){
+    .container{
+        width: 706px;
+    }
+   
+}
+/*---desktop mockup---*/
+ 
+
 
 /* Making the header*/
